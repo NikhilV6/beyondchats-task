@@ -6,6 +6,11 @@ const app = express();
 app.use(cors());
 app.use(express.json())
 
+
+const articleRoutes = require("./routes/article.routes");
+app.use("/api/articles/", articleRoutes);
+
+
 app.get("/health", (req, res) => {
   res.status(200).json({ status: "OK", message: "Backend is running" });
 });
