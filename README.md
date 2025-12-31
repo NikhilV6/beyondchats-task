@@ -109,9 +109,14 @@ flowchart TD
 Create a `.env` file in the `backend/` folder:
 ```
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/beyondchats
+MONGODB_URI=your_mongodb_url
 OPENAI_API_KEY=your_openai_api_key
 SERPER_API_KEY=your_api_key
+```
+
+Create a `.env` file in the `frontend/` folder:
+```
+VITE_API_URL=backend_URL
 ```
 
 **2. Backend Setup**
@@ -143,7 +148,7 @@ Finally, run the article rewriting pipeline:
 node scripts/runRewritePipline.js
 ```
 
-**7. Frontend Setup**
+**7. Frontend Setup** 
 ```bash
 cd ./frontend
 npm i
