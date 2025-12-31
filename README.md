@@ -3,6 +3,8 @@
 
 A modular, production-style system featuring a backend API for managing articles, automated scraping and AI-based rewriting scripts, and a React frontend for displaying original and updated content.
 
+ ## deployment link :
+ `https://beyondchats-task-frontend.vercel.app/`
 ## 📁 Project Structure
 
 ```
@@ -163,3 +165,4 @@ Make sure to check the console for any errors during execution.
 
 
 The backend will run on `http://localhost:5000` and frontend on `http://localhost:5173`.
+
